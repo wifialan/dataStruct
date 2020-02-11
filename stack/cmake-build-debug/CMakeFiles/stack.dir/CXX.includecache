@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alan/work/workspace/clion/data_struct/stack/Array.h
+string.h
+-
+
+/home/alan/work/workspace/clion/data_struct/stack/arrayStack.h
+iostream
+-
+string
+-
+Array.h
+/home/alan/work/workspace/clion/data_struct/stack/Array.h
+
+/home/alan/work/workspace/clion/data_struct/stack/main.cpp
+iostream
+-
+arrayStack.h
+/home/alan/work/workspace/clion/data_struct/stack/arrayStack.h
+
