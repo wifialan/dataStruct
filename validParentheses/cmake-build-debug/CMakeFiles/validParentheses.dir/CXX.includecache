@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alan/work/workspace/clion/data_struct/validParentheses/Array.h
+string.h
+-
+
+/home/alan/work/workspace/clion/data_struct/validParentheses/arrayStack.h
+iostream
+-
+string
+-
+Array.h
+/home/alan/work/workspace/clion/data_struct/validParentheses/Array.h
+
+/home/alan/work/workspace/clion/data_struct/validParentheses/main.cpp
+iostream
+-
+solution.h
+/home/alan/work/workspace/clion/data_struct/validParentheses/solution.h
+string
+-
+
+/home/alan/work/workspace/clion/data_struct/validParentheses/solution.h
+string
+-
+arrayStack.h
+/home/alan/work/workspace/clion/data_struct/validParentheses/arrayStack.h
+
