@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug"/>
+				<Option working_dir="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug"/>
+				<Option working_dir="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="queue">
-				<Option output="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/queue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug"/>
+				<Option output="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="queue/fast">
-				<Option output="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/queue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug"/>
+				<Option output="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,39 +67,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 queue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug"/>
+				<Option working_dir="/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/alan/work/workspace/clion/data_struct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alan/work/workspace/clion/dataStruct/queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/Array.h">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/Array.h">
 			<Option target="queue"/>
 		</Unit>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/ArrayQueue.h">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/ArrayQueue.h">
 			<Option target="queue"/>
 		</Unit>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/LoopQueue.h">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/LoopQueue.h">
 			<Option target="queue"/>
 		</Unit>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/main.cpp">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/main.cpp">
 			<Option target="queue"/>
 		</Unit>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/queue.h">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/queue.h">
 			<Option target="queue"/>
 		</Unit>
-		<Unit filename="/home/alan/work/workspace/clion/data_struct/queue/CMakeLists.txt">
+		<Unit filename="/home/alan/work/workspace/clion/dataStruct/queue/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -16,7 +16,7 @@ int main() {
 //    queue->dequeue();
 //    queue->print();
 //    std::cout << "Hello" << std::endl;
-    LoopQueue<int> * loop_queue = new LoopQueue<int>(20);
+    LoopQueue<int> * loop_queue = new LoopQueue<int>(30);
     for (int i = 0; i < 12; ++i) {
         loop_queue->enqueue(i);
         loop_queue->print();

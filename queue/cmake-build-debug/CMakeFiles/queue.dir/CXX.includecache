@@ -6,35 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/alan/work/workspace/clion/data_struct/queue/Array.h
+/home/alan/work/workspace/clion/dataStruct/queue/Array.h
 iostream
 -
 string.h
 -
 
-/home/alan/work/workspace/clion/data_struct/queue/ArrayQueue.h
+/home/alan/work/workspace/clion/dataStruct/queue/ArrayQueue.h
 iostream
 -
 Array.h
-/home/alan/work/workspace/clion/data_struct/queue/Array.h
+/home/alan/work/workspace/clion/dataStruct/queue/Array.h
 
-/home/alan/work/workspace/clion/data_struct/queue/LoopQueue.h
+/home/alan/work/workspace/clion/dataStruct/queue/LoopQueue.h
 iostream
 -
 Array.h
-/home/alan/work/workspace/clion/data_struct/queue/Array.h
+/home/alan/work/workspace/clion/dataStruct/queue/Array.h
 
-/home/alan/work/workspace/clion/data_struct/queue/main.cpp
+/home/alan/work/workspace/clion/dataStruct/queue/main.cpp
 iostream
 -
 ArrayQueue.h
-/home/alan/work/workspace/clion/data_struct/queue/ArrayQueue.h
+/home/alan/work/workspace/clion/dataStruct/queue/ArrayQueue.h
 LoopQueue.h
-/home/alan/work/workspace/clion/data_struct/queue/LoopQueue.h
-stdio.h
--
-stdlib.h
--
-string.h
--
+/home/alan/work/workspace/clion/dataStruct/queue/LoopQueue.h
 

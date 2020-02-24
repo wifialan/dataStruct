@@ -62,8 +62,9 @@ public:
 //            std::cout << "Begin to resize" << std::endl;
 //            resize(getCapacity() * 2);
 //        }
-        *(&data[0] + tail) = 2;
-        printf("Addr: %p\n",(&data[0] + tail));
+//        *(&data[0] + tail) = e;
+        data[tail] = e;
+        printf("Addr: %p\n",&data[tail]);
         size ++;
         tail ++;
     }
@@ -101,7 +102,7 @@ public:
         std::cout << "Queue: size = " << size << " capacity = " << getCapacity() << std::endl;
         std::cout << "front [";
         for (int i = front; i != tail; i = (i + 1) % getCapacity()) {
-            std::cout << data[i];
+            std::cout << *(&data[0] + i);
             if((i + 1) % getCapacity() != tail)
                 std::cout << " ,";
         }
