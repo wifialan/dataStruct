@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alan/work/workspace/clion/data_struct/queue/Array.h
+iostream
+-
+string.h
+-
+
+/home/alan/work/workspace/clion/data_struct/queue/ArrayQueue.h
+iostream
+-
+Array.h
+/home/alan/work/workspace/clion/data_struct/queue/Array.h
+
+/home/alan/work/workspace/clion/data_struct/queue/LoopQueue.h
+iostream
+-
+Array.h
+/home/alan/work/workspace/clion/data_struct/queue/Array.h
+
+/home/alan/work/workspace/clion/data_struct/queue/main.cpp
+iostream
+-
+ArrayQueue.h
+/home/alan/work/workspace/clion/data_struct/queue/ArrayQueue.h
+LoopQueue.h
+/home/alan/work/workspace/clion/data_struct/queue/LoopQueue.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
